@@ -1,0 +1,146 @@
+section{
+	width: 100%;
+	height:700px;
+}
+img{
+	width: 100px;
+	height: 100px;
+}
+
+
+#page1{
+	background-image: url("../html/slider/slider.jpg");
+	background-size: 150%;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+#pag {
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+header{
+	position: fixed;
+	left: 33%;
+}
+a{
+	text-decoration: none;
+}
+#page2{
+	background-image: url("../html/tech.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: white;
+	height: 900px;
+}
+#page2 div{
+
+	width: 250px;
+	height: 200px;
+	
+	margin: 10px;
+	
+}
+#page3{
+	background-image: url("../html/apps.jpg");
+	background-size: 100%;
+	color: white;
+	text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  
+  padding: 10px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+#page4{
+  text-align: center;
+}
+#page5{
+	background-image: url("../html/contact.jpg");
+	text-align: center;
+	color: white;
+	
+}
+footer{
+	background-color: black;
+	color: white;
+	height: 100px;
+	display: flex;
+	align-items: center;
+}
+#one{
+	background-image: url("../html/projects.jpg");
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.A1{
+	text-align: center;
+}
+#two{
+	height: 800px;
+}
+#two img{
+	width: 400px;
+	height: 300px;
+	margin: 10px;
+}
+#three{
+	margin-bottom: 150px;
+}
+
+#three img{
+	width: 250px;
+}
